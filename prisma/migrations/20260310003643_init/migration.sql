@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "Note" (
+    "id" TEXT NOT NULL PRIMARY KEY,
+    "content" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "tags" TEXT NOT NULL DEFAULT '',
+    "images" TEXT NOT NULL DEFAULT ''
+);
