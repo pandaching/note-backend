@@ -31,3 +31,9 @@ Thumbs.db
 # Prisma files
 prisma/dev.db
 prisma/dev.db-journal
+.env
+node_modules/.prisma/client/edge.js
+node_modules/.prisma/client/index-browser.js
+node_modules/.prisma/client/index.d.ts
+node_modules/.prisma/client/index.js
+node_modules/.prisma/client/wasm.js

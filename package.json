@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "scripts": {
+
+"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma:migrate": "npx prisma migrate deploy",
     "start": "npx prisma generate && npx tsx index.ts",
     "build": "npx prisma generate && npx tsc"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
